@@ -21,7 +21,7 @@ const CountdownTimer = ({ targetDate }) => {
  <Container fluid className="countdown-container">
  <Row className="justify-content-center align-items-center">
    <Col xs={12} sm={8} md={6}>
-     <h1 className="title">Countdown to Tom's Retirement</h1>
+     <h1 className="title">Countdown to TomBay's Retirement</h1>
      <Card className="border-0 shadow-lg mt-4"> 
        {days + hours + minutes + seconds <= 0 ? (
          <Card.Body className="d-flex flex-column justify-content-center align-items-center">
