@@ -3,7 +3,7 @@
 import React from 'react';
 
 const ShowCounter = ({ days, hours, minutes, seconds }) => (
- <div>
+ <div style={{ fontSize: '4rem' }}>
    {days} days, {hours} hours, {minutes} minutes, {seconds} seconds
  </div>
 );
