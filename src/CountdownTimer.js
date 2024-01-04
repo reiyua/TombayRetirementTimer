@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
+
 
 // Create a CountdownTimer component and add variables to hold the days, hours, minutes, and seconds values returned from the useCountdown hook
 const CountdownTimer = ({ targetDate }) => {
@@ -22,7 +22,7 @@ const CountdownTimer = ({ targetDate }) => {
  <Row className="justify-content-center align-items-center">
    <Col xs={12} sm={8} md={6}>
      <h1 className="title">Countdown to Tom's Retirement</h1>
-     <Card className="border-0 shadow-lg mt-4">
+     <Card className="border-0 shadow-lg mt-4"> 
        {days + hours + minutes + seconds <= 0 ? (
          <Card.Body className="d-flex flex-column justify-content-center align-items-center">
            <ExpiredNotice />
