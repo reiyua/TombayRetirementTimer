@@ -8,8 +8,6 @@ export const Countdown = () => {
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
-  // Set default date to 1 Jan 2023 as placeholder
-  const [inputDate, setInputDate] = useState("1 Jan 2023");
   const [currentDate, setCurrentDate] = useState(inputDate);
 
   useEffect(() => {
@@ -33,10 +31,7 @@ export const Countdown = () => {
     setInputDate(event.target.value);
   };
 
-  // When button is clicked, set current date to input date from user submissionn box
-  const onClickHandler = () => {
-    setCurrentDate(inputDate);
-  };
+ 
 
 
   // Various CSS classes for styling
