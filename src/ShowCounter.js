@@ -1,4 +1,4 @@
-// This file contains the ShowCounter component which is used to display the countdown timer.
+// This file contains the ShowCounter component which is used to display the countdown timer on the website
 
 import React from 'react';
 
